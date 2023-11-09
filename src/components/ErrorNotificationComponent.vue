@@ -22,7 +22,7 @@
         >
         <div class="w-full h-full bg-principal-500/80 flex rounded-[7px]">
         <div class="flex items-center justify-center w-12 ">
-          <img src="errorIcon.svg" alt="error_icon" class="text-accent">
+          <img src="/errorIcon.svg" alt="error_icon" class="text-accent">
             </div>
   
             <div class="px-4 py-2 -mx-3  ">
