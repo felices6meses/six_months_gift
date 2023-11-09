@@ -14,6 +14,6 @@ import { RouterView } from 'vue-router'
 </template>
 <style>
 .bg-blurred-pattern {
-  background: url('pattern_bg.png');
+  background: url('/pattern_bg.png');
 }
 </style>

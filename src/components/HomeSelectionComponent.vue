@@ -85,11 +85,11 @@ const triggerCorrectClick = () => {
 </script>
 <style >
 .bg-correct-option {
-  background: url('correct-option.png');
+  background: url('/correct-option.png');
 }
 
 .bg-wrong-option {
-  background: url('wrong-option.png');
+  background: url('/wrong-option.png');
 }
 
 </style>
