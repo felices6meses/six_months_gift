@@ -10,9 +10,6 @@ export default {
         title: ['Shrikhand', 'serif'],
         text: ['Belleza', 'sans-serif']
       },
-      backgroundImage: {
-        'blurred-pattern': "url('pattern_bg.png')"
-      },
       colors:{ 
         'accent': '#FF9CF2',
         'principal': '#181A1B',

@@ -5,10 +5,10 @@
         ¿Cual de nosotros dos ama mas al otro?</p>
       <div id="selectionContainer" class="w-full flex justify-center gap-12">
         <button id="MauroBtn"
-          class="bg-[url('correct-option.png')] w-24 h-24 rounded-full border-2 shadow-xl border-borders/50  active:border-pink-500 active:shadow-none active:border-4 transition-all duration-300" @click="triggerCorrectClick"
+          class="bg-correct-option w-24 h-24 rounded-full border-2 shadow-xl border-borders/50  active:border-pink-500 active:shadow-none active:border-4 transition-all duration-300" @click="triggerCorrectClick"
           ></button>
         <button id="cateBtn"
-          class="bg-[url('wrong-option.png')] w-24 h-24 rounded-full border-2 shadow-xl border-borders/50  active:border-pink-500 active:shadow-none active:border-4 transition-all duration-300 disabled:border-slate-300/5 disabled:flex disabled:justify-center disabled:bg-none disabled:border-none disabled:shadow-none disabled:items-center text-accent" @click="triggerErrorClick"
+          class="bg-wrong-option w-24 h-24 rounded-full border-2 shadow-xl border-borders/50  active:border-pink-500 active:shadow-none active:border-4 transition-all duration-300 disabled:border-slate-300/5 disabled:flex disabled:justify-center disabled:bg-none disabled:border-none disabled:shadow-none disabled:items-center text-accent" @click="triggerErrorClick"
           >
           <img v-if="isDisabled" src="/arrowIcon.svg" alt="Arrow Icon" class=" -rotate-90 w-10 h-10 text-accent">
         </button>
@@ -83,3 +83,13 @@ const triggerCorrectClick = () => {
   },3000)
 }
 </script>
+<style >
+.bg-correct-option {
+  background: url('correct-option.png');
+}
+
+.bg-wrong-option {
+  background: url('wrong-option.png');
+}
+
+</style>
